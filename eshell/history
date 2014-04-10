@@ -1,0 +1,55 @@
+./PuttyReg.rb test.csv
+ls -al
+chmod 777 PuttyReg.rb 
+chmod +x PuttyReg.rb 
+chmod -h
+chmod PuttyReg.rb 777
+ls -al
+l
+./PuttyReg
+./PuttyReg.rb
+chmod PuttyReg.rb +rwx
+chmod PuttyReg.rb +x
+chmod --help
+chmod --help mode
+ruby PuttyReg.rb 
+ruby PuttyReg.rb test.csv 
+chmod PuttyReg.rb 000
+ls -al
+chmod PuttyReg.rb xxx
+chmod PuttyReg.rb 111
+ls -al
+chmod PuttyReg.rb 123
+ls -al
+ruby PuttyReg.rb test.csv 
+ruby PuttyReg.rb test.csv 
+ruby --version
+ruby --versionri split
+ri split
+ruby PuttyReg.rb test.csv 
+ruby PuttyReg.rb test.csv 
+ruby PuttyReg.rb test.csv 
+ruby PuttyReg.rb test.csv | less
+ruby PuttyReg.rb test.csv | more
+ruby PuttyReg.rb test.csv
+ruby PuttyReg.rb test.csv
+ruby PuttyReg.rb test.csv
+"WideFontHeight"=dword:df141752
+ruby PuttyReg.rb test.csv
+ruby PuttyReg.rb test.csv
+"SerialStopHalfbits"=dword:00000002
+ping 68.87.80.77
+exirt
+exit
+pwd
+export PS1=/w
+export PS1=/W
+manb bash
+man bash
+k
+l
+ls -al
+alias
+rm *~
+ls -al
+exit

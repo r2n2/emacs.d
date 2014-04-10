@@ -1,0 +1,19 @@
+                            Org-Mode Info
+
+F9:                     Open TODO.org
+
+C-x \ :                 Create dated Day header
+C-c t:                  Create TOTO entry
+C-c C-t:                Toggle TODO state
+S L-arrow|R-arrow:      Change TODO state
+S up-arrow|down-arrow:  Change TODO priority
+TAB                     Toggle org item Open or Closed
+C-c C-u:                Go to next higer entry
+C-c ^:                  Sort current entry by...
+C-c C-o:                Open link at point
+C-c C->                 Outline-demote
+
+Link creation:
+
+  [[file:<path>][Description] ] # Actually, no space between last two brackets.
+    http:<URL>

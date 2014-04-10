@@ -1,0 +1,15 @@
+ (defun calculator-sum-column (start end)
+   "Adds numbers in rectangle."
+   (interactive "r")
+   (save-excursion
+     (kill-rectangle start end)
+     (exchange-point-and-mark)
+     (yank-rectangle)
+     (set-buffer (get-buffer-create "*calc-sum*"))
+     (erase-buffer)
+     (yank-rectangle)
+     (exchange-point-and-mark-nomark)
+     (let ((sum 0))
+       (while (re-search-forward "[0-9]*\\.?[0-9]+" nil t)
+	 (setq sum (+ sum (string-to-number (match-string 0)))))
+       (message "Sum: %f" sum))))

@@ -1,0 +1,10 @@
+
+File: dir,  Node: Top,  Next: Overview,  Prev: (dir),  Up: (dir)
+
+* Menu:
+
+* CC-Mode:    (~/.emacs.d/info/cc-mode.info).     Major mode for editing C and similar languages.
+* Emacs-Wiki: (~/.emacs.d/info/emacs-wiki).       Emacs Wiki Mode
+* Jabber:     (~/.emacs.d/info/jabber.info).      A Jabber client for Emacs.
+* Mailcrypt:  (~/.emacs.d/info/mailcrypt.info).   An Emacs/PGP interface.
+* Org-Mode:   (~/.emacs.d/info/org).         Outline-based notes management and organizer
