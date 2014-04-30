@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <14/03/28 15:57:49 /home/ninger200/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <14/04/24 08:10:50 /home/ninger200/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -37,4 +37,58 @@
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
   ("uid-integer" 136)
-  ("ls" "/usr/xpg4/bin/ls")))
+  ("ls" "/usr/xpg4/bin/ls"))
+ (["ssh" "nelson" "172.28.97.26" nil nil]
+  ("uname" "Linux 2.6.32-358.23.2.el6.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/nelson")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" "\\readlink")
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("ls" "/bin/ls --color=never")
+  ("id" "/usr/bin/id")
+  ("uid-integer" 58778)
+  ("gid-integer" 58778)
+  ("ls-dired" t))
+ (["ssh" "nelson" "beepbeep" nil nil]
+  ("uname" "Linux 2.6.32-358.23.2.el6.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/nelson")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" "\\readlink")
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 58780)
+  ("uid-integer" 58778)
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t))
+ (["ssh" "ninger200" "app01" nil nil]
+  ("uname" "Linux 2.6.32-431.5.1.el6.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/ninger200")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" "\\readlink")
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 5014)))

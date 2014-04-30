@@ -1,0 +1,45 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ load-theme
+ recover-this-file
+ center-line
+ highlight-phrase
+ indent-region
+ rectangle-number-lines
+)
+
+;; ----- smex-data -----
+(
+ (package-list-packages . 9)
+ (indent-region . 17)
+ (flycheck-mode . 2)
+ (flyspell-mode . 2)
+ (flyspell-region . 1)
+ (org-mode . 3)
+ (center-line . 11)
+ (shell-mode . 3)
+ (shell-script-mode . 1)
+ (number-to-register . 1)
+ (rectangle-number-lines . 5)
+ (sort-lines . 3)
+ (align . 2)
+ (align-current . 1)
+ (text-mode . 1)
+ (getenv . 2)
+ (common-lisp-mode . 1)
+ (emacs-lisp-mode . 1)
+ (eval-expression . 1)
+ (untabify . 1)
+ (org-table-sort-lines . 1)
+ (apply-macro-to-region-lines . 2)
+ (revert-buffer . 2)
+ (org-list-repair . 2)
+ (color-theme-solarized-dark . 4)
+ (highlight-phrase . 1)
+ (color-theme-solarized-light . 1)
+ (ample-theme . 1)
+ (load-theme . 29)
+ (recover-this-file . 1)
+)

@@ -147,7 +147,7 @@
 (global-set-key "\C-cw4" (lambda () (interactive) (nei-frame-set 0 0 0 40)))
 (global-set-key "\C-cw5" (lambda () (interactive) (nei-frame-set 0 0 0 45)))
 (global-set-key "\C-cw6" (lambda () (interactive) (nei-frame-set 0 0 0 50)))
-(global-set-key "\C-cwp" (lambda () (interactive) (nei-frame-set 65 4 130 90)))
+(global-set-key "\C-cwp" (lambda () (interactive) (nei-frame-set 145 4 130 70)))
 ;;; end Load Frame controls ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;############################################################################
@@ -163,6 +163,7 @@
 (setq org-lowest-priority ?D)
 (setq org-startup-folded t)
 (setq org-hide-leading-stars t)
+(setq org-cycle-include-plain-lists 'integrate)
 ;
 (global-set-key "\C-ct" 'org-insert-todo-heading)
 (setq nei-TODO-header-format "** %Y.%m.%d-%A")
@@ -211,7 +212,7 @@
 
 (set-default-font "DejaVu Sans Mono-11" )
 (setq nei-frame-top 65 )
-(setq nei-frame-left 300 )
+(setq nei-frame-left 225 )
 (setq nei-frame-cols 100 )
 (setq nei-frame-rows 55 )
 (nei-restore-window)
@@ -345,7 +346,7 @@
    '(uniquify-buffer-name-style nil nil (uniquify)))
 
   (require 'tramp)
-  (setq tramp-default-method "ssh")
+  (setq tramp-default-method "scp")
 
   ; ISpell
   (setq-default ispell-program-name "/usr/bin/aspell")
